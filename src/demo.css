@@ -262,3 +262,14 @@ pre {
     background: #f7f8f9;
     padding: 0px 10px;
 }
+
+.adyen-checkout__button--pay {
+    background-color: #0abf53;
+    font-weight: 900;
+    border-radius: 0;
+}
+
+.adyen-checkout__payment-method {
+    /* Payment method container */
+    background-color: pink;
+}

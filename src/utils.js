@@ -4,7 +4,7 @@ function setReturnUrl(){
     if(window.location.pathname === '/sessions/') {
         return window.location.href
     } else {
-        return 'https://your-company.com/'
+        return 'https://docs.adyen.com/'
     }
 }
 
@@ -20,7 +20,7 @@ const paymentMethodsConfig = {
 
 const paymentsDefaultConfig = {
     shopperReference: 'Checkout Components sample code test',
-    reference: 'Checkout Components sample code test',
+    reference: 'CarltonLi_adyenrecruitment',
     countryCode: 'NL',
     channel: 'Web',
     returnUrl: setReturnUrl(),
